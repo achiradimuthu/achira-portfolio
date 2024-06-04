@@ -1,0 +1,50 @@
+.main-div{
+    width: 100%;
+    background: var(--bg-blue);
+    position: fixed;
+    top: 0;
+}
+
+.content{
+    max-width: 1120px;
+    margin: 0 auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+}
+
+.logo-span-blue{
+    font-size: 18px;
+    color: var(--text-blue);
+    font-weight: 500;
+}
+.logo-span-white{
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+}
+
+.github-btn{
+    width: 195px;
+    height: 46px;
+    text-decoration: none;
+    color: var(--text-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: none;
+    border: solid 1px var(--text-blue);
+    border-radius: 20px;
+}
+
+.github-icon{
+    width: 25px;
+    height: 25px;
+}
+
+.thub-btn-span{
+    font-size: 16px;
+    font-weight: 500;
+}
