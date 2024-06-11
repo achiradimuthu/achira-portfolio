@@ -19,7 +19,7 @@ function Header() {
             <Navigation />
           </div>
           <div>
-            <a href="#" className="github-btn">
+            <a href="https://github.com/achiradimuthu" target="_blank" className="github-btn">
               <img src={GithubIcon} className="github-icon" alt="git-hub-icon" />
               <span className="github-btn-span">Github Profile</span>
             </a>

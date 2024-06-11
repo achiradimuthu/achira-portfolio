@@ -7,19 +7,19 @@ function Navigation() {
     <div>
       <ul>
         <li>
-          <Link smooth className="link">About</Link>
+          <Link smooth className="link" to="#about">About</Link>
         </li>
         <li>
-          <Link smooth className="link">Skills</Link>
+          <Link smooth className="link" to="#skills">Skills</Link>
         </li>
         <li>
-          <Link smooth className="link">Education</Link>
+          <Link smooth className="link" to="#education">Education</Link>
         </li>
         <li>
-          <Link smooth className="link">Projects</Link>
+          <Link smooth className="link" to="#projects">Projects</Link>
         </li>
         <li>
-          <Link smooth className="link">Contact</Link>
+          <Link smooth className="link" to="#contact">Contact</Link>
         </li>
       </ul>
     </div>

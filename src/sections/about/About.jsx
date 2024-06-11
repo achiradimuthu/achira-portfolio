@@ -4,7 +4,7 @@ import MyImg from "../../assets/resources/me.png";
 
 function About() {
   return (
-    <div className="about-main-div">
+    <div className="about-main-div" id="about">
       <div className="about-content">
         <div className="about-left-div">
           <h1>
@@ -13,7 +13,7 @@ function About() {
           </h1>
           <div className="about-h2-div">
             <span>I am a</span>
-            <span className="sp">&nbsp;Undergraduate Student</span>
+            <span className="sp">&nbsp;Software Engineer Undergraduate Student</span>
           </div>
           <h3>
             I am a motivated and versatile individual, always eager to take on
@@ -22,7 +22,7 @@ function About() {
             growth mindset, I am ready to make a meaningful contribution and
             achieve great things.
           </h3>
-          <a href="#" target="_blanck">
+          <a href="#">
             Check Resume
           </a>
         </div>

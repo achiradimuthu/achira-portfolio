@@ -25,7 +25,7 @@ import Figma_icon from "../../assets/icons/other-icons/figma.png";
 
 function Skills() {
   return (
-    <div className="skills-main-div">
+    <div className="skills-main-div" id="skills">
       <div className="skills-content">
         <div className="skills-d1">
           <h1>Skills</h1>
