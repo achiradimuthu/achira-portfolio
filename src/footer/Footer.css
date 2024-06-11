@@ -1,0 +1,38 @@
+.footer-main-div{
+    width: 100%;
+    height: auto;
+    background: var(--bg-blue);
+}
+
+.footer-content{
+    max-width: 1120px;
+    margin: 0 auto 0 auto;
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.footer-content .sp1{
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--text-blue);
+}
+
+.footer-content ul{
+    margin: 0;
+    padding: 0;
+}
+
+.footer-content img{
+    width: 25px;
+    height: 25px;
+}
+
+.footer-content .sp2{
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+}
