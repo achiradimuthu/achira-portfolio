@@ -1,78 +1,220 @@
-.education-main-div{
-    width: 100%;
-    height: auto;
+.education-main-div {
+  width: 100%;
+  height: auto;
 }
 
-.education-content{
-    max-width: 1120px;
-    margin: 0 auto 0 auto;
-    padding: 100px 20px 50px 20px;
-    display: flex;
-    flex-direction: column;
+.education-content {
+  max-width: 1120px;
+  margin: 0 auto 0 auto;
+  padding: 100px 20px 50px 20px;
+  display: flex;
+  flex-direction: column;
 }
 
-.education-d1{
-    text-align: center;
+.education-d1 {
+  text-align: center;
 }
 
-.education-d1 h1{
+@media (max-width: 767px) {
+  .education-d1 h1 {
+    font-size: 30px;
     margin: 0;
-}
+  }
 
-.education-d1 h3{
+  .education-d1 h3 {
+    font-size: 13px;
     margin: 0;
     font-weight: 500;
-}
+  }
 
-.education-d2{
+  .education-d2 {
     display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
     margin: 70px 0 0 0;
-}
+  }
 
-.education-d2 .ldiv{
-    width: 50%;
+  .education-d2 .ldiv {
+    margin-top: 50px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+  }
 
-.education-d2 .ldiv img{
-    width: 70%;
-}
+  .education-d2 .ldiv img {
+    width: 60%;
+  }
 
-.education-d2 .rdiv{
-    width: 50%;
+  .education-d2 .rdiv {
+    max-width: 90%;
     display: flex;
     flex-direction: column;
     gap: 20px;
+  }
+
+  .education-d2 .rdiv .card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: var(--card-bg);
+    border: 1px solid var(--sub-card-outline);
+    border-radius: 20px;
+    padding: 10px 15px 10px 15px;
+  }
+
+  .education-d2 .rdiv .card img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+  }
+
+  .education-d2 .rdiv .card .sp1 {
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--card-text);
+  }
+
+  .education-d2 .rdiv .card .sp2 {
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--card-text);
+    margin-top: 5px;
+  }
 }
 
-.education-d2 .rdiv .card{
+@media (min-width: 768px) {
+  .education-d1 h1 {
+    font-size: 40px;
+    margin: 0;
+  }
+
+  .education-d1 h3 {
+    font-size: 15px;
+    margin: 0;
+    font-weight: 500;
+  }
+
+  .education-d2 {
     display: flex;
+    margin: 70px 0 0 0;
+  }
+
+  .education-d2 .ldiv {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .education-d2 .ldiv img {
+    width: 80%;
+  }
+
+  .education-d2 .rdiv {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .education-d2 .rdiv .card {
+    display: flex;
+    align-items: center;
     gap: 20px;
     background: var(--card-bg);
     border: 1px solid var(--sub-card-outline);
     border-radius: 20px;
     padding: 20px 30px 20px 30px;
+  }
+
+  .education-d2 .rdiv .card img {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+  }
+
+  .education-d2 .rdiv .card .sp1 {
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--card-text);
+  }
+
+  .education-d2 .rdiv .card .sp2 {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--card-text);
+    margin-top: 5px;
+  }
 }
 
-.education-d2 .rdiv .card img{
+@media (min-width: 992px) {
+  .education-d1 h1 {
+    font-size: 50px;
+    margin: 0;
+  }
+
+  .education-d1 h3 {
+    font-size: 18px;
+    margin: 0;
+    font-weight: 500;
+  }
+
+  .education-d2 {
+    display: flex;
+    margin: 70px 0 0 0;
+  }
+
+  .education-d2 .ldiv {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .education-d2 .ldiv img {
+    width: 70%;
+  }
+
+  .education-d2 .rdiv {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .education-d2 .rdiv .card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: var(--card-bg);
+    border: 1px solid var(--sub-card-outline);
+    border-radius: 20px;
+    padding: 20px 30px 20px 30px;
+  }
+
+  .education-d2 .rdiv .card img {
     width: 80px;
     height: 80px;
     border-radius: 10px;
-}
+  }
 
-.education-d2 .rdiv .card .sp1{
+  .education-d2 .rdiv .card .sp1 {
     display: block;
     font-size: 20px;
     font-weight: 600;
     color: var(--card-text);
-}
+  }
 
-.education-d2 .rdiv .card .sp2{
+  .education-d2 .rdiv .card .sp2 {
     display: block;
     font-size: 16px;
     font-weight: 400;
     color: var(--card-text);
     margin-top: 5px;
+  }
 }

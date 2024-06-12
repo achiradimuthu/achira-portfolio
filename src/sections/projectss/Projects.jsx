@@ -20,9 +20,9 @@ function Projects() {
                 <div className="project-card">
                   <img src={project.image} alt="sample" />
                   <div className="tech-tags">
-                    {project.tags.map((tag) => {
+                    {project.tags.map((tag, i) => {
                       return (
-                        <div className="tech-tag">
+                        <div className="tech-tag" key={i}>
                           <span>{tag}</span>
                         </div>
                       );
