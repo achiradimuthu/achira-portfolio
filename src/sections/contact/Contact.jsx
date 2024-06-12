@@ -1,8 +1,13 @@
 import React, { useRef } from "react";
 import "./Contact.css";
 import emailjs from "@emailjs/browser";
+import {useSnackbar} from 'notistack';
+
 
 function Contact() {
+
+  const {enqueueSnackbar} = useSnackbar();
+
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -15,7 +20,8 @@ function Contact() {
       .then(
         (result) => {
           console.log(result.text);
-          alert("Email sent.");
+          // alert("Email sent.");
+          enqueueSnackbar("Message sent successfully!", {variant: 'success'});
           e.target.reset();
         },
         (error) => {

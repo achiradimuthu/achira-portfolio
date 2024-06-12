@@ -26,12 +26,12 @@
 
 @media (max-width: 767px) {
   .projects-d1 h1 {
-    font-size: 30px;
+    font-size: 40px;
     margin: 0;
   }
 
   .projects-d1 h3 {
-    font-size: 13px;
+    font-size: 16px;
     margin: 0;
     font-weight: 500;
   }
@@ -75,20 +75,20 @@
   }
 
   .project-card .tech-tags .tech-tag span {
-    font-size: 12px;
+    font-size: 14px;
     color: var(--language-tag-card-text);
   }
 
   .project-card .sp1 {
     display: block;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
     color: var(--card-title);
   }
 
   .project-card .sp2 {
     display: block;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     color: var(--card-title);
     margin-top: 15px;
