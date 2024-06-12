@@ -1,28 +1,179 @@
-.contact-main-div{
-    width: 100%;
-    height: auto;
+.contact-main-div {
+  width: 100%;
+  height: auto;
 }
 
-.contact-content{
-    max-width: 1120px;
-    margin: 0 auto 0 auto;
-    padding: 100px 20px 120px 20px;
+.contact-content {
+  max-width: 1120px;
+  margin: 0 auto 0 auto;
+  padding: 100px 20px 120px 20px;
 }
 
-.contact-d1{
-    text-align: center;
+.contact-d1 {
+  text-align: center;
 }
 
-.contact-d1 h1{
+@media (max-width: 767px) {
+  .contact-d1 h1 {
+    font-size: 30px;
     margin: 0;
-}
+  }
 
-.contact-d1 h3{
+  .contact-d1 h3 {
+    font-size: 13px;
     margin: 0;
     font-weight: 500;
+  }
+
+  .contact-d2 {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    padding: 20px;
+    background: var(--card-bg);
+    border: 1px solid var(--sub-card-outline);
+    border-radius: 20px;
+    gap: 15px;
+    margin: 50px auto 0 auto;
+  }
+
+  .contact-d2 form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .contact-d2 span {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+  }
+
+  .contact-d2 input {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 15px 10px 15px;
+    border: 1px solid var(--input-feild-outline);
+    background: none;
+    color: white;
+    border-radius: 10px;
+    letter-spacing: 1px;
+  }
+
+  .contact-d2 textarea {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 15px 10px 15px;
+    border: 1px solid var(--input-feild-outline);
+    background: none;
+    color: white;
+    border-radius: 10px;
+    height: 150px;
+  }
+
+  .contact-d2 .send-btn {
+    background: linear-gradient(90deg, var(--btn-pink), var(--btn-blue));
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .contact-d2 input:focus {
+    outline: none;
+  }
+
+  .contact-d2 textarea:focus {
+    outline: none;
+  }
 }
 
-.contact-d2{
+@media (min-width: 768px) {
+  .contact-d1 h1 {
+    font-size: 40px;
+    margin: 0;
+  }
+
+  .contact-d1 h3 {
+    font-size: 15px;
+    margin: 0;
+    font-weight: 500;
+  }
+
+  .contact-d2 {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    padding: 40px;
+    background: var(--card-bg);
+    border: 1px solid var(--sub-card-outline);
+    border-radius: 20px;
+    gap: 15px;
+    margin: 50px auto 0 auto;
+  }
+
+  .contact-d2 form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .contact-d2 span {
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+  }
+
+  .contact-d2 input {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 15px 10px 15px;
+    border: 1px solid var(--input-feild-outline);
+    background: none;
+    color: white;
+    border-radius: 10px;
+    letter-spacing: 1px;
+  }
+
+  .contact-d2 textarea {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 15px 10px 15px;
+    border: 1px solid var(--input-feild-outline);
+    background: none;
+    color: white;
+    border-radius: 10px;
+    height: 150px;
+  }
+
+  .contact-d2 .send-btn {
+    background: linear-gradient(90deg, var(--btn-pink), var(--btn-blue));
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .contact-d2 input:focus {
+    outline: none;
+  }
+
+  .contact-d2 textarea:focus {
+    outline: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .contact-d1 h1 {
+    font-size: 50px;
+    margin: 0;
+  }
+
+  .contact-d1 h3 {
+    font-size: 18px;
+    margin: 0;
+    font-weight: 500;
+  }
+
+  .contact-d2 {
     display: flex;
     flex-direction: column;
     max-width: 500px;
@@ -32,21 +183,21 @@
     border-radius: 20px;
     gap: 15px;
     margin: 50px auto 0 auto;
-}
+  }
 
-.contact-d2 form{
+  .contact-d2 form {
     display: flex;
     flex-direction: column;
     gap: 15px;
-}
+  }
 
-.contact-d2 span{
+  .contact-d2 span {
     font-size: 28px;
     font-weight: 600;
     color: white;
-}
+  }
 
-.contact-d2 input{
+  .contact-d2 input {
     font-size: 16px;
     font-weight: 400;
     padding: 10px 15px 10px 15px;
@@ -55,9 +206,9 @@
     color: white;
     border-radius: 10px;
     letter-spacing: 1px;
-}
+  }
 
-.contact-d2 textarea{
+  .contact-d2 textarea {
     font-size: 16px;
     font-weight: 400;
     padding: 10px 15px 10px 15px;
@@ -66,19 +217,20 @@
     color: white;
     border-radius: 10px;
     height: 150px;
-}
+  }
 
-.contact-d2 .send-btn{
+  .contact-d2 .send-btn {
     background: linear-gradient(90deg, var(--btn-pink), var(--btn-blue));
     font-size: 18px;
     font-weight: 600;
     cursor: pointer;
-}
+  }
 
-.contact-d2 input:focus{
+  .contact-d2 input:focus {
     outline: none;
-}
+  }
 
-.contact-d2 textarea:focus{
+  .contact-d2 textarea:focus {
     outline: none;
+  }
 }
