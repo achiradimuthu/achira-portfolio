@@ -22,7 +22,7 @@ function About() {
             growth mindset, I am ready to make a meaningful contribution and
             achieve great things.
           </h3>
-          <a href="#">
+          <a href="https://drive.google.com/file/d/1ji_Y8sZgtOtLpW_23LxkgmhJIPNhN1JN/view?usp=sharing" target="_blank">
             Check Resume
           </a>
         </div>
