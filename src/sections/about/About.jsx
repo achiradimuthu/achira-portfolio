@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import MyImg from "../../assets/resources/me.png";
+import MyImg from "../../assets/resources/me.webp";
 
 function About() {
   return (

@@ -1,8 +1,8 @@
 import Bookstore_img from "../assets/resources/project-images/book-store.jpeg";
-import Signin_signup_img from "../assets/resources/project-images/signin-signup.png";
-import Eshop_img from "../assets/resources/project-images/eshop.png";
-import Pitzo_img from "../assets/resources/project-images/pitzo.png";
-import Redwingstaxi_img from "../assets/resources/project-images/redwings-taxi.png";
+import Signin_signup_img from "../assets/resources/project-images/signin-signup.webp";
+import Eshop_img from "../assets/resources/project-images/eshop.webp";
+import Pitzo_img from "../assets/resources/project-images/pitzo.webp";
+import Redwingstaxi_img from "../assets/resources/project-images/redwings-taxi.webp";
 
 export const projects = [
   {

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Education.css";
-import Mainimg from '../../assets/resources/hat-certificate.png';
+import Mainimg from '../../assets/resources/hat-certificate.webp';
 import Bcuimg from '../../assets/resources/bcu-img.png';
 import Jiatimg from '../../assets/resources/jiat-img.png';
 
